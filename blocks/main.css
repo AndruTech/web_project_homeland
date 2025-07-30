@@ -449,7 +449,7 @@
 }
 
 /* Punto de ruptura para 320px (móvil pequeño)*/
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .lead__content {
     min-width: 288px;
     margin: 0;
@@ -464,7 +464,6 @@
     padding-right: 46px;
     margin-bottom: 16px;
     width: 228px;
-
     justify-content: center;
   }
 
