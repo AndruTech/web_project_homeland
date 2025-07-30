@@ -86,4 +86,4 @@
 
 Ideal para **mostrar contenido cultural** con un diseño limpio y profesional. 🚀
 
-enlace a GitHub Pages:
+enlace a GitHub Pages: https://andrutech.github.io/web_project_homeland/
