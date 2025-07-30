@@ -1,3 +1,9 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .content__lead {
   padding-left: 148px;
   padding-right: 148px;
