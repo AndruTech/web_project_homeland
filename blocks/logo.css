@@ -1,0 +1,98 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.image__logo {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.logo__text {
+  display: flex;
+  height: 14.94px;
+  width: 254.84px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter-bold", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* INTERVALO 1: hasta 544px (móvil)
+    @media (max-width: 543px) {
+
+      .logo {
+        margin-bottom: 20px;
+      }
+
+      .image__logo {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 15px;
+      }
+
+      .logo__text {
+        font-size: 14px;
+      }
+
+    }
+
+    /* VERIFICACIONES EN RESOLUCIONES INTERMEDIAS
+    /* 470px (móvil pequeño) */
+@media (max-width: 470px) {
+  .logo__text {
+    font-size: 13px;
+  }
+}
+
+/* Punto de ruptura para 544px (móvil grande)*/
+@media screen and (max-width: 544px) {
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  .image__logo {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .logo__text {
+    font-size: 14px;
+    width: 200px;
+  }
+}
+
+/* Punto de ruptura para 320px (móvil pequeño)*/
+@media screen and (max-width: 544px) {
+  .logo {
+    margin: 20px 66px 50px;
+  }
+
+  .image__logo {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .logo__text {
+    font-size: 14px;
+    width: 200px;
+  }
+}
+
+/* Resolución intermedia: 470px*/
+@media screen and (max-width: 470px) {
+  .logo__text {
+    font-size: 13px;
+    width: 180px;
+  }
+}

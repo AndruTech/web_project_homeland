@@ -1,0 +1,552 @@
+.lead__content {
+  padding-left: 148px;
+  padding-right: 148px;
+  padding-bottom: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.content__title {
+  text-align: center;
+  width: 720px;
+  height: 200px;
+  font-family: "Inter-black", Arial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 100px;
+  margin: 0 auto;
+  margin-top: 91px;
+  color: white;
+}
+
+.content__description {
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 280px;
+  align-items: center;
+  max-width: 720px;
+  margin: 32px auto 64px;
+  color: white;
+}
+
+.content__image {
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+  background-image: url("../images/cover__image.png");
+  filter: grayscale(100%);
+}
+
+.content__intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 92px;
+  width: 830px;
+  height: 607px;
+  margin-left: 116px;
+  margin-right: 334px;
+  box-sizing: border-box;
+}
+
+.content__subtitle {
+  font-family: "Inter-black", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  color: white;
+}
+
+.content__subtitle-paragraph {
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 16px;
+  width: 738px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.content__subtitle-author {
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  width: 732px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.content__galery-description {
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: justify;
+  width: 722px;
+  margin-top: 32px;
+  padding: 0;
+  color: white;
+}
+
+/* INTERVALO 3: 1024px y superior (escritorio completo)
+    @media (min-width: 1024px) {
+      .lead__content {
+        padding: 0 148px;
+      }
+
+      .content__intro {
+        padding: 0;
+        width: 830px;
+        margin: 92px auto 0;
+      }
+
+      .content__subtitle-paragraph,
+      .content__subtitle-author,
+      .content__galery-description {
+        width: 100%;
+      }
+
+      .footer__paragraph {
+        width: 194px;
+        margin: 92px auto 24px;
+      }
+    }
+
+
+      /* INTERVALO 2: 544px a 1024px (tablet)
+    @media (min-width: 544px) and (max-width: 1023px) {
+      .content__title {
+        font-size: 60px;
+        line-height: 64px;
+        margin-top: 60px;
+      }
+
+      .content__description {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 24px auto 48px;
+      }
+
+      .content__intro {
+        margin-top: 60px;
+      }
+
+      .content__subtitle {
+        font-size: 44px;
+        line-height: 48px;
+      }
+
+      .content__subtitle-paragraph,
+      .content__subtitle-author {
+        font-size: 20px;
+        line-height: 28px;
+      }
+
+      .content__galery-description {
+        font-size: 15px;
+        line-height: 24px;
+      }
+
+      .footer__paragraph {
+        margin-top: 60px;
+      }
+    }
+
+    /* INTERVALO 1: hasta 544px (móvil)
+    @media (max-width: 543px) {
+      .header {
+        padding-top: 20px;
+      }
+
+      .logo {
+        margin-bottom: 20px;
+      }
+
+      .image__logo {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 15px;
+      }
+
+      .logo__text {
+        font-size: 14px;
+      }
+
+      .content__title {
+        font-size: 40px;
+        line-height: 44px;
+        margin-top: 40px;
+      }
+
+      .content__description {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 16px auto 32px;
+      }
+
+      .content__intro {
+        margin-top: 40px;
+      }
+
+      .content__subtitle {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+
+      .content__subtitle-paragraph,
+      .content__subtitle-author {
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+      .content__galery-description {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+      }
+
+      .footer__paragraph {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 12px;
+      }
+    }
+
+    /* VERIFICACIONES EN RESOLUCIONES INTERMEDIAS */
+/* 470px (móvil pequeño)
+    @media (max-width: 470px) {
+      .content__title {
+        font-size: 36px;
+        line-height: 40px;
+      }
+
+      .content__description {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .logo__text {
+        font-size: 13px;
+      }
+    }
+
+    /* 665px (tablet pequeña)
+    @media (min-width: 665px) and (max-width: 768px) {
+      .content__title {
+        font-size: 50px;
+        line-height: 54px;
+      }
+
+      .content__description {
+        font-size: 22px;
+        line-height: 26px;
+      }
+    }
+
+    /* 999px (tablet grande)
+    @media (min-width: 999px) and (max-width: 1023px) {
+      .content__title {
+        font-size: 70px;
+        line-height: 74px;
+      }
+
+      .content__description {
+        font-size: 26px;
+        line-height: 30px;
+      }
+    }
+
+    /* 1100px (escritorio mediano)
+    @media (min-width: 1100px) and (max-width: 1279px) {
+      .lead__content {
+        padding: 0 100px;
+      }
+
+      .content__intro {
+        width: 780px;
+      }
+    }
+
+    /* 1500px (pantallas grandes)
+    @media (min-width: 1500px) {
+      .page {
+        max-width: 1500px;
+      }
+
+      .content__title {
+        margin-top: 120px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Punto de ruptura para 1024px (escritorio mediano)*/
+@media screen and (max-width: 1024px) {
+  .lead__content {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .content__title {
+    font-size: 80px;
+    line-height: 84px;
+    width: 600px;
+  }
+
+  .content__description {
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content__intro {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content__subtitle {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .content__subtitle-paragraph,
+  .content__subtitle-author,
+  .content__galery-description {
+    width: 100%;
+  }
+}
+
+/* Punto de ruptura para 768px (tablet)*/
+@media screen and (max-width: 768px) {
+  .lead__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content__title {
+    font-size: 75px;
+    line-height: 79px;
+    width: 530px;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 119px;
+    margin-right: 119px;
+    text-align: center;
+  }
+
+  .content__description {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 25px 24px 30px;
+  }
+
+  .content__intro {
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    padding: 0 24px;
+  }
+
+  .content__subtitle {
+    font-size: 45px;
+    line-height: 40px;
+    margin-right: 37px;
+    padding-right: 37px;
+    line-height: 49px;
+  }
+
+  .content__subtitle-paragraph,
+  .content__subtitle-author {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .content__galery-description {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+/* Punto de ruptura para 544px (móvil grande)*/
+@media screen and (max-width: 544px) {
+  .lead__content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .content__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 40px;
+  }
+
+  .content__description {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 16px auto 32px;
+  }
+
+  .content__intro {
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+
+  .content__subtitle {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .content__subtitle-paragraph,
+  .content__subtitle-author {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .content__galery-description {
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 20px;
+  }
+}
+
+/* Punto de ruptura para 320px (móvil pequeño)*/
+@media screen and (min-width: 320px) {
+  .lead__content {
+    min-width: 288px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0;
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-bottom: 16px;
+    width: 228px;
+
+    justify-content: center;
+  }
+
+  .content__description {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 16px 40px 16px;
+  }
+
+  .content__intro {
+    margin-top: 64px;
+    padding: 0 16px;
+  }
+
+  .content__subtitle {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .content__subtitle-paragraph,
+  .content__subtitle-author {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .content__galery-description {
+    font-size: 16px;
+    line-height: 163%;
+    margin-top: 64px;
+  }
+}
+
+/* Resolución intermedia: 470px*/
+@media screen and (max-width: 470px) {
+  .content__title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .content__description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/* Resolución intermedia: 665px*/
+@media screen and (max-width: 665px) and (min-width: 545px) {
+  .content__title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .content__description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* Resolución intermedia: 999px*/
+@media screen and (max-width: 999px) and (min-width: 769px) {
+  .content__title {
+    font-size: 70px;
+    line-height: 74px;
+  }
+
+  .content__description {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+/* Resolución intermedia: 1100px*/
+@media screen and (max-width: 1100px) and (min-width: 1000px) {
+  .lead__content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .content__intro {
+    width: 780px;
+  }
+}

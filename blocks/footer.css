@@ -1,0 +1,106 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__paragraph {
+  display: flex;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 92px;
+  margin-bottom: 24px;
+  margin-left: 543px;
+  margin-right: 543px;
+  width: 194px;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* INTERVALO 3: 1024px y superior (escritorio completo)
+    @media (min-width: 1024px) {
+
+      .footer__paragraph {
+        width: 194px;
+        margin: 92px auto 24px;
+      }
+    }
+
+  /* INTERVALO 2: 544px a 1024px (tablet)
+    @media (min-width: 544px) and (max-width: 1023px) {
+
+      .footer__paragraph {
+        margin-top: 60px;
+      }
+    }
+
+    /* INTERVALO 1: hasta 544px (móvil)
+    @media (max-width: 543px) {
+
+      .footer__paragraph {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 12px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Punto de ruptura para 768px (tablet)*/
+@media screen and (max-width: 768px) {
+  .footer__paragraph {
+    margin-top: 50px;
+    margin-bottom: 24px;
+    margin-left: 287px;
+    margin-right: 287px;
+  }
+}
+
+/* Punto de ruptura para 544px (móvil grande)*/
+@media screen and (max-width: 544px) {
+  .footer__paragraph {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .footer__paragraph {
+    margin: 0 63px 24px 63px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+/* Resolución intermedia: 665px*/
+@media screen and (max-width: 665px) and (min-width: 545px) {
+  .footer__paragraph {
+    margin-top: 40px;
+  }
+}
+
+/* Resolución intermedia: 999px*/
+@media screen and (max-width: 999px) and (min-width: 769px) {
+  .footer__paragraph {
+    margin-top: 60px;
+  }
+}
