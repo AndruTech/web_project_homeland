@@ -55,8 +55,8 @@
   margin-top: 92px;
   width: 830px;
   height: 607px;
-  margin-left: 116px;
-  margin-right: 334px;
+  margin-left: 148px;
+  margin-right: 302px;
   box-sizing: border-box;
 }
 
@@ -319,8 +319,8 @@
 /* Punto de ruptura para 1024px (escritorio mediano)*/
 @media screen and (max-width: 1024px) {
   .lead__content {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 148px;
+    padding-right: 148px;
   }
 
   .content__title {
