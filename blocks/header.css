@@ -6,29 +6,6 @@
   flex-direction: column;
 }
 
-/* INTERVALO 1: hasta 544px (móvil)
-    @media (max-width: 543px) {
-      .header {
-        padding-top: 20px;
-      }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Punto de ruptura para 768px (tablet)*/
 @media screen and (max-width: 768px) {
   .header {

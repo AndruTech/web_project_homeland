@@ -26,27 +26,7 @@
   color: #ffffff;
 }
 
-/* INTERVALO 1: hasta 544px (móvil)
-    @media (max-width: 543px) {
-
-      .logo {
-        margin-bottom: 20px;
-      }
-
-      .image__logo {
-        width: 28px;
-        height: 28px;
-        margin-bottom: 15px;
-      }
-
-      .logo__text {
-        font-size: 14px;
-      }
-
-    }
-
-    /* VERIFICACIONES EN RESOLUCIONES INTERMEDIAS
-    /* 470px (móvil pequeño) */
+/* 470px (móvil pequeño) */
 @media (max-width: 470px) {
   .logo__text {
     font-size: 13px;

@@ -12,29 +12,6 @@
   background-color: #2a2c2f;
 }
 
-/* 1500px (pantallas grandes)
-    @media (min-width: 1500px) {
-      .page {
-        max-width: 1500px;
-      }
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Punto de ruptura para 1024px (escritorio mediano)*/
 @media screen and (max-width: 1024px) {
   .page {

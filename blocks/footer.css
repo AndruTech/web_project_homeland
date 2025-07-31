@@ -19,50 +19,6 @@
   color: white;
 }
 
-/* INTERVALO 3: 1024px y superior (escritorio completo)
-    @media (min-width: 1024px) {
-
-      .footer__paragraph {
-        width: 194px;
-        margin: 92px auto 24px;
-      }
-    }
-
-  /* INTERVALO 2: 544px a 1024px (tablet)
-    @media (min-width: 544px) and (max-width: 1023px) {
-
-      .footer__paragraph {
-        margin-top: 60px;
-      }
-    }
-
-    /* INTERVALO 1: hasta 544px (móvil)
-    @media (max-width: 543px) {
-
-      .footer__paragraph {
-        margin-top: 30px;
-        margin-bottom: 15px;
-        font-size: 12px;
-      }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Punto de ruptura para 768px (tablet)*/
 @media screen and (max-width: 768px) {
   .footer__paragraph {
