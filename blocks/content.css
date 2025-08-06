@@ -121,6 +121,8 @@
   gap: 16px;
   margin: auto;
   margin-top: 118px;
+  margin-left: 43px;
+  margin-right: 53px;
 }
 
 /* Punto de ruptura para 1024px (escritorio mediano)*/
