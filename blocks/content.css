@@ -115,6 +115,14 @@
   color: white;
 }
 
+.content__photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: auto;
+  margin-top: 118px;
+}
+
 /* Punto de ruptura para 1024px (escritorio mediano)*/
 @media screen and (max-width: 1024px) {
   .content__lead {
