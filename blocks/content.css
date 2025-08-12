@@ -125,6 +125,225 @@
   margin-right: 53px;
 }
 
+.content__places {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 987px;
+  grid-template-rows: repeat(4, 1fr);
+  height: 3377px;
+  grid-template-areas:
+    "city-1"
+    "city-2"
+    "city-3"
+    "city-4";
+  row-gap: 80px;
+  margin-bottom: 90px;
+}
+
+.city-1 {
+  grid-area: city-1;
+}
+.city-2 {
+  grid-area: city-2;
+}
+.city-3 {
+  grid-area: city-3;
+}
+.city-4 {
+  grid-area: city-4;
+}
+
+.content__places-item-1 {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 76px;
+  column-gap: 40px;
+  margin: 0;
+  margin-top: 92px;
+
+  color: white;
+  grid-template-areas:
+    "content__places-title ." "content__places-title title_artistas"
+    "content__places-title name_jefe" "content__places-title name_gerente"
+    "content__places-photo content__places-paragraph-top"
+    "content__places-photo content__places-paragraph-bottom"
+    "content__places-button .";
+}
+
+.content__places-item-2 {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 76px;
+  column-gap: 40px;
+  margin: 0;
+  color: white;
+  grid-template-areas:
+    "content__places-title ." "content__places-title ."
+    "content__places-title title_artistas" "content__places-title name_gerente"
+    "content__places-photo content__places-paragraph-top"
+    "content__places-photo content__places-paragraph-bottom"
+    "content__places-button .";
+}
+
+.content__places-item-3 {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 76px;
+  column-gap: 40px;
+  margin: 0;
+  color: white;
+  grid-template-areas:
+    "content__places-title ." "content__places-title ."
+    "content__places-title title_artistas" "content__places-title name_gerente"
+    "content__places-photo content__places-paragraph-top-3"
+    "content__places-photo content__places-paragraph-medium-3"
+    "content__places-photo content__places-paragraph-bottom-3"
+    "content__places-button content__places-paragraph-bottom-3"
+    ". content__places-paragraph-bottom-3";
+}
+
+.content__places-item-4 {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 76px;
+  column-gap: 40px;
+  margin: 0;
+
+  color: white;
+  grid-template-areas:
+    "content__places-title ." "content__places-title title_artistas"
+    "content__places-title name_jefe" "content__places-title name_gerente"
+    "content__places-photo content__places-paragraph-top"
+    "content__places-photo content__places-paragraph-bottom"
+    "content__places-button .";
+}
+
+.content__places-title {
+  font-family: "Inter-black", Arial, sans-serif;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+  margin-bottom: 48px;
+  color: white;
+  grid-area: content__places-title;
+}
+
+.content__places-photo {
+  width: 100%;
+  height: 460px;
+  grid-area: content__places-photo;
+  margin: 0;
+  margin-bottom: 48px;
+  box-shadow: 10px 10px 40px #000000;
+}
+.content__places-photo:hover {
+  filter: grayscale(20%);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+  opacity: 0.2;
+}
+
+.title_artistas {
+  grid-area: title_artistas;
+  margin: 0;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  color: #aaaaaa;
+}
+
+.name_jefe {
+  grid-area: name_jefe;
+  margin: 0;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.name_gerente {
+  grid-area: name_gerente;
+  margin: 0;
+  margin-bottom: 48px;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.content__places-paragraph-top {
+  grid-area: content__places-paragraph-top;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.content__places-paragraph-top-3 {
+  grid-area: content__places-paragraph-top-3;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  height: 174px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.content__places-paragraph-medium-3 {
+  grid-area: content__places-paragraph-medium-3;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+  height: 203px;
+  margin-bottom: 25px;
+}
+
+.content__places-paragraph-bottom {
+  grid-area: content__places-paragraph-bottom;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+}
+.content__places-paragraph-bottom-3 {
+  grid-area: content__places-paragraph-bottom-3;
+  font-family: "Inter-regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+}
+
+.content__places-button {
+  grid-area: content__places-button;
+  margin: 0;
+  font-family: "Inter-semibold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 48px;
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  color: white;
+  width: 289px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 5px 5px 10px #000000;
+}
+
+.content__places-button-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+.content__places-button:hover {
+  filter: grayscale(20%);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+  opacity: 0.2;
+}
 /* Punto de ruptura para 1024px (escritorio mediano)*/
 @media screen and (max-width: 1024px) {
   .content__lead {
@@ -160,6 +379,36 @@
   .content__subtitle-author,
   .content__galery-description {
     width: 100%;
+  }
+
+  .content__photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .content__photo-grid-item {
+    width: 488px;
+    height: 315px;
+  }
+
+  .content__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content__places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 976px;
+    height: auto;
+    row-gap: 72px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0;
   }
 }
 
@@ -212,19 +461,181 @@
     font-size: 16px;
     line-height: 163%;
   }
-}
 
+  .content__photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .content__photo-grid-item {
+    width: 352px;
+    height: 264px;
+  }
+
+  .content__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content__places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    height: auto;
+    row-gap: 72px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  .content__places-item-1,
+  .content__places-item-2,
+  .content__places-item-3,
+  .content__places-item-4 {
+    width: 720px;
+    height: auto;
+  }
+
+  .content__places-item-1 {
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 23px;
+    column-gap: 40px;
+    margin: 0;
+    margin-top: 92px;
+    color: white;
+    grid-template-areas:
+      ". title_artistas"
+      "content__places-title name_jefe" "content__places-title name_gerente"
+      "content__places-photo content__places-paragraph-top"
+      "content__places-photo content__places-paragraph-bottom"
+      "content__places-button content__places-paragraph-bottom"
+      ". content__places-paragraph-bottom"
+      ". content__places-paragraph-bottom";
+  }
+
+  .content__places-title {
+    font-size: 42px;
+    line-height: 46px;
+    grid-area: content__places-title;
+  }
+
+  .content__places-photo {
+    width: 340px;
+    height: 340px;
+  }
+
+  .title_artistas {
+    margin: 0;
+    margin-bottom: 8px;
+    height: 15px;
+  }
+
+  .content__places-paragraph-top {
+    font-size: 16px;
+  }
+
+  .content__places-paragraph-bottom {
+    font-size: 16px;
+  }
+
+  .content__places-item-2 {
+    display: grid;
+    height: 639px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 15px;
+    column-gap: 40px;
+    margin: 0;
+    color: white;
+    grid-template-areas:
+      "content__places-title title_artistas" "content__places-title name_gerente"
+      "content__places-photo content__places-paragraph-top"
+      "content__places-photo content__places-paragraph-bottom"
+      "content__places-button content__places-paragraph-bottom"
+      ". content__places-paragraph-bottom";
+  }
+
+  .content__places-item-3 {
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 42px;
+    height: 892px;
+    column-gap: 40px;
+    margin: 0;
+    color: white;
+    grid-template-areas:
+      "content__places-title ."
+      "content__places-title title_artistas"
+      "content__places-title name_gerente"
+      "content__places-photo content__places-paragraph-top-3"
+      "content__places-photo content__places-paragraph-medium-3"
+      "content__places-button content__places-paragraph-medium-3"
+      "content__places-button content__places-paragraph-medium-3"
+      ". content__places-paragraph-bottom-3";
+  }
+
+  .content__places-paragraph-top-3 {
+    grid-area: content__places-paragraph-top-3;
+    font-size: 16px;
+    line-height: 1.63;
+    height: 208px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .content__places-paragraph-medium-3 {
+    grid-area: content__places-paragraph-medium-3;
+    font-size: 16px;
+    line-height: 1.63;
+    margin: 0;
+    height: 234px;
+    margin-bottom: 25px;
+  }
+
+  .content__places-paragraph-bottom-3 {
+    grid-area: content__places-paragraph-bottom-3;
+    font-size: 16px;
+    line-height: 1.63;
+    margin: 0;
+  }
+
+  .content__places-item-4 {
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 42px;
+    column-gap: 40px;
+    margin: 0;
+    color: white;
+    grid-template-areas:
+      "content__places-title ." "content__places-title title_artistas"
+      "content__places-title name_jefe" "content__places-title name_gerente"
+      "content__places-photo content__places-paragraph-top"
+      "content__places-photo content__places-paragraph-bottom"
+      "content__places-button content__places-paragraph-bottom"
+      ". content__places-paragraph-bottom";
+  }
+}
 /* Punto de ruptura para 544px (móvil grande)*/
 @media screen and (max-width: 544px) {
   .content__lead {
     padding-left: 20px;
     padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .content__title {
     font-size: 40px;
     line-height: 44px;
     margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
 
   .content__description {
@@ -236,24 +647,238 @@
   .content__intro {
     margin-top: 40px;
     padding: 0 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 544px;
+    box-sizing: border-box;
   }
 
   .content__subtitle {
     font-size: 28px;
     line-height: 32px;
+    margin: 0;
+    padding: 0;
     margin-bottom: 20px;
+    width: 100%;
   }
 
   .content__subtitle-paragraph,
   .content__subtitle-author {
     font-size: 16px;
     line-height: 22px;
+    width: 100%;
   }
 
   .content__galery-description {
     font-size: 14px;
     line-height: 140%;
     margin-top: 20px;
+    width: 100%;
+  }
+
+  .content__photo-grid {
+    grid-template-columns: 544px;
+    gap: 16px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .content__photo-grid-item {
+    width: 512px;
+    height: 408px;
+  }
+
+  .content__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content__places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 544px;
+    height: auto;
+    row-gap: 72px;
+    margin: 0;
+    grid-template-columns: 544px;
+  }
+
+  .city-1,
+  .city-2,
+  .city-3,
+  .city-4 {
+    width: 544px;
+    height: auto;
+  }
+
+  .content__places-item-1 {
+    display: grid;
+    width: 544px;
+    grid-template-columns: 544px;
+    grid-template-rows: 60px;
+    margin: 0;
+
+    margin-top: 62px;
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_jefe"
+      "name_gerente"
+      "content__places-photo"
+      "content__places-paragraph-top"
+      "content__places-paragraph-bottom"
+      "content__places-button";
+  }
+  .content__places-item-2 {
+    display: grid;
+    height: auto;
+    width: 544px;
+    grid-template-columns: 544px;
+    grid-template-rows: 60px;
+    margin: 0;
+
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_gerente"
+      "content__places-photo"
+      "content__places-paragraph-top"
+      "content__places-paragraph-bottom"
+      "content__places-button";
+  }
+  .content__places-item-3 {
+    display: grid;
+    width: 544px;
+    grid-template-columns: 544px;
+    grid-template-rows: 70px;
+    height: auto;
+    margin: 0;
+
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_gerente"
+      "content__places-photo"
+      "content__places-paragraph-top-3"
+      "content__places-paragraph-medium-3"
+      "content__places-paragraph-bottom-3"
+      "content__places-button";
+  }
+  .content__places-item-4 {
+    display: grid;
+    width: 544px;
+    grid-template-columns: 544px;
+    grid-template-rows: 45px;
+    margin: 0;
+
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_jefe"
+      "content__places-photo"
+      "content__places-paragraph-top"
+      "content__places-paragraph-bottom"
+      "content__places-button";
+  }
+
+  .content__places-title {
+    grid-area: content__places-title;
+
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .title-3 {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .content__places-photo {
+    width: 512px;
+    height: 512px;
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .title_artistas {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .name_jefe {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+  .name_gerente {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-top {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-top-3 {
+    margin-left: 16px;
+    margin-right: 16px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-bottom {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-medium-3 {
+    margin-left: 16px;
+    margin-right: 16px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-bottom-3 {
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .content__places-button {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 30px;
+    width: 512px;
+    box-sizing: border-box;
+  }
+}
+
+/* Resolución intermedia: 665px*/
+@media screen and (max-width: 665px) and (min-width: 545px) {
+  .content__title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .content__description {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 
@@ -285,6 +910,7 @@
   .content__intro {
     margin-top: 64px;
     padding: 0 16px;
+    width: 320px;
   }
 
   .content__subtitle {
@@ -306,6 +932,207 @@
     line-height: 163%;
     margin-top: 64px;
   }
+  .content__photo-grid {
+    grid-template-columns: 288px;
+    gap: 16px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .content__photo-grid-item {
+    width: 288px;
+    height: 216px;
+  }
+
+  .content__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content__places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: auto;
+    row-gap: 72px;
+    margin: 0;
+  }
+
+  .content__places-item-1,
+  .content__places-item-2,
+  .content__places-item-3,
+  .content__places-item-4 {
+    width: 320px;
+    height: auto;
+  }
+
+  .content__places-item-1 {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 60px;
+    margin: 0;
+    margin-top: 62px;
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_jefe"
+      "name_gerente"
+      "content__places-photo"
+      "content__places-paragraph-top"
+      "content__places-paragraph-bottom"
+      "content__places-button";
+  }
+  .content__places-item-2 {
+    display: grid;
+    height: auto;
+    grid-template-columns: 320px;
+    grid-template-rows: 60px;
+    margin: 0;
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_gerente"
+      "content__places-photo"
+      "content__places-paragraph-top"
+      "content__places-paragraph-bottom"
+      "content__places-button";
+  }
+  .content__places-item-3 {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 70px;
+    height: auto;
+    margin: 0;
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_gerente"
+      "content__places-photo"
+      "content__places-paragraph-top-3"
+      "content__places-paragraph-medium-3"
+      "content__places-paragraph-bottom-3"
+      "content__places-button";
+  }
+  .content__places-item-4 {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 45px;
+    margin: 0;
+    color: white;
+    grid-template-areas:
+      "content__places-title"
+      "title_artistas"
+      "name_jefe"
+      "content__places-photo"
+      "content__places-paragraph-top"
+      "content__places-paragraph-bottom"
+      "content__places-button";
+  }
+
+  .content__places-title {
+    font-size: 32px;
+    line-height: 35px;
+    grid-area: content__places-title;
+    margin-bottom: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .title-3 {
+    font-size: 32px;
+    line-height: 35px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .content__places-photo {
+    width: 320px;
+    height: 320px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    box-shadow: none;
+  }
+
+  .title_artistas {
+    margin: 0;
+    row-gap: 0;
+    margin-bottom: 8px;
+    height: 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .name_jefe {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 30px;
+  }
+  .name_gerente {
+    margin-bottom: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .content__places-paragraph-top {
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 288px;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-top-3 {
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 288px;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-bottom {
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 30px;
+    width: 288px;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-medium-3 {
+    font-size: 16px;
+    height: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 288px;
+    box-sizing: border-box;
+  }
+
+  .content__places-paragraph-bottom-3 {
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 30px;
+    width: 288px;
+    box-sizing: border-box;
+  }
+
+  .content__places-button {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0;
+    width: 288px;
+  }
 }
 
 /* Resolución intermedia: 470px*/
@@ -318,6 +1145,24 @@
   .content__description {
     font-size: 16px;
     line-height: 20px;
+  }
+  .content__photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .content__photo-grid-item {
+    width: 288px;
+    height: 216px;
+  }
+
+  .content__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
