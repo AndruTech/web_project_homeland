@@ -164,7 +164,7 @@
 
   color: white;
   grid-template-areas:
-    "content__places-title ." "content__places-title content__title_artistas"
+    "content__places-title ." "content__places-title content__places-artistas"
     "content__places-title content__name_jefe" "content__places-title content__name_gerente"
     "content__places-photo content__places-paragraph-top"
     "content__places-photo content__places-paragraph-bottom"
@@ -180,7 +180,7 @@
   color: white;
   grid-template-areas:
     "content__places-title ." "content__places-title ."
-    "content__places-title content__title_artistas" "content__places-title content__name_gerente"
+    "content__places-title content__places-artistas" "content__places-title content__name_gerente"
     "content__places-photo content__places-paragraph-top"
     "content__places-photo content__places-paragraph-bottom"
     "content__places-button .";
@@ -195,7 +195,7 @@
   color: white;
   grid-template-areas:
     "content__places-title ." "content__places-title ."
-    "content__places-title content__title_artistas" "content__places-title content__name_gerente"
+    "content__places-title content__places-artistas" "content__places-title content__name_gerente"
     "content__places-photo content__places-paragraph-top-3"
     "content__places-photo content__places-paragraph-medium-3"
     "content__places-photo content__places-paragraph-bottom-3"
@@ -212,7 +212,7 @@
 
   color: white;
   grid-template-areas:
-    "content__places-title ." "content__places-title content__title_artistas"
+    "content__places-title ." "content__places-title content__places-artistas"
     "content__places-title content__name_jefe" "content__places-title content__name_gerente"
     "content__places-photo content__places-paragraph-top"
     "content__places-photo content__places-paragraph-bottom"
@@ -245,8 +245,8 @@
   opacity: 0.2;
 }
 
-.content__title_artistas {
-  grid-area: content__title_artistas;
+.content__places-artistas {
+  grid-area: content__places-artistas;
   margin: 0;
   font-family: "Inter-regular", Arial, sans-serif;
   font-size: 12px;
@@ -510,7 +510,7 @@
     margin-top: 92px;
     color: white;
     grid-template-areas:
-      ". content__title_artistas"
+      ". content__places-artistas"
       "content__places-title content__name_jefe" "content__places-title content__name_gerente"
       "content__places-photo content__places-paragraph-top"
       "content__places-photo content__places-paragraph-bottom"
@@ -530,7 +530,7 @@
     height: 340px;
   }
 
-  .content__title_artistas {
+  .content__places-artistas {
     margin: 0;
     margin-bottom: 8px;
     height: 15px;
@@ -553,7 +553,7 @@
     margin: 0;
     color: white;
     grid-template-areas:
-      "content__places-title content__title_artistas" "content__places-title content__name_gerente"
+      "content__places-title content__places-artistas" "content__places-title content__name_gerente"
       "content__places-photo content__places-paragraph-top"
       "content__places-photo content__places-paragraph-bottom"
       "content__places-button content__places-paragraph-bottom"
@@ -570,7 +570,7 @@
     color: white;
     grid-template-areas:
       "content__places-title ."
-      "content__places-title content__title_artistas"
+      "content__places-title content__places-artistas"
       "content__places-title content__name_gerente"
       "content__places-photo content__places-paragraph-top-3"
       "content__places-photo content__places-paragraph-medium-3"
@@ -612,7 +612,7 @@
     margin: 0;
     color: white;
     grid-template-areas:
-      "content__places-title ." "content__places-title content__title_artistas"
+      "content__places-title ." "content__places-title content__places-artistas"
       "content__places-title content__name_jefe" "content__places-title content__name_gerente"
       "content__places-photo content__places-paragraph-top"
       "content__places-photo content__places-paragraph-bottom"
@@ -726,7 +726,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_jefe"
       "content__name_gerente"
       "content__places-photo"
@@ -745,7 +745,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_gerente"
       "content__places-photo"
       "content__places-paragraph-top"
@@ -763,7 +763,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_gerente"
       "content__places-photo"
       "content__places-paragraph-top-3"
@@ -781,7 +781,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_jefe"
       "content__places-photo"
       "content__places-paragraph-top"
@@ -811,7 +811,7 @@
     box-sizing: border-box;
   }
 
-  .content__title_artistas {
+  .content__places-artistas {
     margin-left: 16px;
     margin-right: 16px;
     box-sizing: border-box;
@@ -978,7 +978,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_jefe"
       "content__name_gerente"
       "content__places-photo"
@@ -995,7 +995,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_gerente"
       "content__places-photo"
       "content__places-paragraph-top"
@@ -1011,7 +1011,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_gerente"
       "content__places-photo"
       "content__places-paragraph-top-3"
@@ -1027,7 +1027,7 @@
     color: white;
     grid-template-areas:
       "content__places-title"
-      "content__title_artistas"
+      "content__places-artistas"
       "content__name_jefe"
       "content__places-photo"
       "content__places-paragraph-top"
@@ -1062,7 +1062,7 @@
     box-shadow: none;
   }
 
-  .content__title_artistas {
+  .content__places-artistas {
     margin: 0;
     row-gap: 0;
     margin-bottom: 8px;
